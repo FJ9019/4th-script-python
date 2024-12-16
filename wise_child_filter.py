@@ -10,6 +10,15 @@ Variable :
       - age : (int) l'age de l'enfant
       - sage : (bool) sage ou non
 Sortie :
-      - (str) Félicitations nom_de_l'enfant tu as été sage, le père Noël attend impatiemment ta lettre
-      - (str) Désolé, nom_de_l'en_enfant tu n'as pas été sage cette année, papa Noël pas content de toi
+      - (str) Félicitations nom_de_l'enfant tu as été sage, le père Noël attend impatiemment ta lettre !
+      - (str) Désolé, nom_de_l'en_enfant tu n'as pas été sage cette année, papa Noël pas content de toi !
 """
+
+nom = "Jerry"
+age = 9
+sage = False
+
+if age <= 10 and sage:
+    print(f"Félicitations {nom} tu as été sage cette année, papa Noël attend impatiemment ta lettre !")
+else:
+    print(f"Désolé, {nom} tu n'as pas été sage cette année, papa Noël pas content de toi !")
